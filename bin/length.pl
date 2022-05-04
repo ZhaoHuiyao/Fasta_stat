@@ -36,6 +36,7 @@ foreach $k(keys %hash){
 	$Total_read = $Total_read+1;
 }
 
+print "Total_read:\t$Total_read\nTotal_length:\t$Total_length\n";
 print RESULT "Total_read:\t$Total_read\nTotal_length:\t$Total_length";
 
 close(DATA);close(RESULT);
